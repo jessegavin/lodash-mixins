@@ -18,13 +18,13 @@ _(string)_: Returns trimmed string if the value was a string, else initial value
 ####Example
 
     _.trim(" hi ");
-    // ? "hi"
+    // → "hi"
     
     _.trim("hello world");
-    // ? "hello world"
+    // → "hello world"
     
     _.trim([1, 2, 3]);
-    // ? [1, 2, 3]
+    // → [1, 2, 3]
     
 ---
 
@@ -43,10 +43,10 @@ _(boolean)_: Returns `true` if the value is empty or whitespace only, else `fals
 ####Example
 
     _.isNullOrWhiteSpace("hi");
-    // ? false
+    // → false
     
     _.isNullOrWhiteSpace(" ");
-    // ? true
+    // → true
     
     _.isNullOrWhiteSpace(null);
-    // ? true
+    // → true
